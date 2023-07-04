@@ -1,0 +1,31 @@
+{% extends 'pw_storage/user_password/base.html' %}
+
+{% block content %}
+
+{% if messages %}
+<div class="alert alert-danger" role="alert">
+  {% for message in messages %}
+     {{ message }}
+    {% endfor %}
+</div>
+<br>
+{% endif %}
+
+<div class="container-fluid">
+  {%if request.user.is_authenticated%}
+     <p class="display-5" style="color: white;">Welcome {{request.user}} store your passwords here!</p>
+  {%else%}
+  <h2 class="display-3" style="color: white;">Store your passwords here!</h2>
+  {%endif%}
+  <br>
+  <ul class="list-group">
+    <li class="list-group-item active">Steps</li>
+    <li class="list-group-item">1.Register</li>
+    <li class="list-group-item">2.Choose title</li>
+    <li class="list-group-item">3.Set password title</li>
+    <li class="list-group-item">4.Save and find later</li>
+    <li class="list-group-item">5.Edit or Delete if wanted</li>
+  </ul>
+</div>
+
+{% endblock %}

@@ -1,0 +1,25 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: Password reset on 127.0.0.1:8000
+From: webmaster@localhost
+To: daretimileyin1@gmail.com
+Date: Sun, 16 Apr 2023 07:17:39 -0000
+Message-ID: <168162945958.10988.16326437516213004410@DESKTOP-MKO6824>
+
+
+You're receiving this email because you requested a password reset for your user account at 127.0.0.1:8000.
+
+Please go to the following page and choose a new password:
+
+http://127.0.0.1:8000/reset/MQ/bmq3hf-f1d4d8c8451713a107ad946df73dd130/
+
+Your username, in case you’ve forgotten: dare
+
+Thanks for using our site!
+
+The 127.0.0.1:8000 team
+
+
+
+-------------------------------------------------------------------------------
